@@ -1,0 +1,49 @@
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_distort.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#album-art {
+    width: 100%;
+    display: block;
+    max-width: 500px;;
+    margin: auto;
+    border: 10px solid white;
+}
+
+i {
+    font-size: 55px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
