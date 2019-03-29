@@ -36,6 +36,10 @@ i {
     margin-top: 10px;
 }
 
+a i {
+    color: rgba(255, 255, 255, 0.9);
+}
+
 main {
     padding: 30px;
     text-align: center;
