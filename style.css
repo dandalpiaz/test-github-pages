@@ -17,25 +17,31 @@ body {
     padding: 0px;
     font-family: 'Roboto';
     font-weight: 300;
-    background: url(art_small.jpg);
-    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url(art_bad6.75.jpg);
+    background-size: 200px 200px;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 #album-art {
     width: 100%;
     display: block;
-    max-width: 750px;;
+    max-width: 500px;;
+    margin: auto;
 }
 
 i {
-    font-size: 35px;
-    margin-right: 5px;
+    font-size: 55px;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 main {
-    background: teal;
-    display: inline-block;
-    width: 500px;
-    height: 250px;
-    padding: 20px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
