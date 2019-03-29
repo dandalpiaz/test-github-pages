@@ -17,8 +17,8 @@ body {
     padding: 0px;
     font-family: 'Roboto';
     font-weight: 300;
-    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url(art_bad6.jpg);
-    background-size: 400px 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bad6.jpg);
+    background-size: 200px 200px;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -27,6 +27,7 @@ body {
     display: block;
     max-width: 500px;;
     margin: auto;
+    border: 10px solid white;
 }
 
 i {
