@@ -17,10 +17,8 @@ body {
     padding: 0px;
     font-family: 'Roboto';
     font-weight: 300;
-    /*background: linear-gradient( rgba(200, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bg.jpg);*/
-    /*background-size: cover;*/
-    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bad6.jpg);
-    background-size: 200px 200px;
+    background: linear-gradient( rgba(200, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bg.jpg);
+    background-size: cover;
     color: rgba(255, 255, 255, 0.9);
 }
 
