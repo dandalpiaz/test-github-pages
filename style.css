@@ -17,10 +17,29 @@ body {
     padding: 0px;
     font-family: 'Roboto';
     font-weight: 300;
-    background: linear-gradient( rgba(200, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bg.jpg);
-    background-size: cover;
     color: rgba(255, 255, 255, 0.9);
 }
+
+#bg-art {
+    background: linear-gradient( rgba(200, 0, 0, 0.55), rgba(0, 0, 0, 0.85) ), url(img/art_bg.jpg);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation-duration: 15.0s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changewidth {
+    0% {
+        transform:scale(1.0)
+    }
+    100% {
+        transform:scale(1.2)
+    }
+  }
 
 a {
     text-decoration: none;
